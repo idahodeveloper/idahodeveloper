@@ -22,6 +22,7 @@
         "drupal/dawn": "^1.2",
         "drupal/medium_theme": "^1.0",
         "drupal/simple_block": "^1.0@beta",
+        "drupal/xmlsitemap": "^1.0@alpha",
         "drush-ops/behat-drush-endpoint": "^0.0.5",
         "drush/drush": "~8",
         "pantheon-systems/quicksilver-pushback": "~1",
