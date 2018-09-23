@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff5d42555d18b5953547b757b86e01cd",
+    "content-hash": "3fef630e0e0ca92caf824d51e2f2420b",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1134,7 +1134,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -1689,6 +1689,100 @@
             "time": "2018-09-10T11:50:07+00:00"
         },
         {
+            "name": "drupal/dawn",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/dawn",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/dawn-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "aa85dafb115a62306b985205e768d39ad4abc8bc"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1537453681",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "SKAUGHT",
+                    "homepage": "https://www.drupal.org/user/297907"
+                }
+            ],
+            "description": "For beginning of site and theme development. Based on Bootstrap grids (with responsive utilities)",
+            "homepage": "https://www.drupal.org/project/dawn",
+            "support": {
+                "source": "http://cgit.drupalcode.org/dawn"
+            }
+        },
+        {
+            "name": "drupal/medium_theme",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/medium_theme",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/medium_theme-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "9cd15231e46d7efeb3446fc7e35c95cce6f08871"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1536661680",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "imalabya",
+                    "homepage": "https://www.drupal.org/user/2641255"
+                }
+            ],
+            "description": "A simple clean theme inspired by Medium blogging platform.",
+            "homepage": "https://www.drupal.org/project/medium_theme",
+            "support": {
+                "source": "http://cgit.drupalcode.org/medium_theme"
+            }
+        },
+        {
             "name": "drupal/simple_block",
             "version": "1.0.0-beta1",
             "source": {
@@ -1721,7 +1815,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -4490,6 +4584,17 @@
         {
             "name": "webflo/drupal-core-strict",
             "version": "8.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webflo/drupal-core-strict.git",
+                "reference": "3a941992f02528327be3cd45de1eb3fe71a5ff30"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webflo/drupal-core-strict/zipball/3a941992f02528327be3cd45de1eb3fe71a5ff30",
+                "reference": "3a941992f02528327be3cd45de1eb3fe71a5ff30",
+                "shasum": ""
+            },
             "require": {
                 "asm89/stack-cors": "1.2.0",
                 "composer/installers": "v1.5.0",
