@@ -1,0 +1,14 @@
+uuid: 3380437d-65aa-4a90-9f15-039591eec772
+name: idahodeveloper
+mail: idahodeveloper@protonmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
