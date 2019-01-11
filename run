@@ -1,0 +1,184 @@
+{
+    "name": "pantheon-systems/example-drops-8-composer",
+    "description": "Install drops-8 with Composer on Pantheon.",
+    "type": "project",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.8",
+        "composer/installers": "^1.0.20",
+        "cweagans/composer-patches": "^1.0",
+        "drupal-composer/drupal-scaffold": "^2.0.1",
+        "drupal/bootstrap_sass": "^1.6",
+        "drupal/config_direct_save": "^1.0",
+        "drupal/config_installer": "^1.0",
+        "drupal/console": "^1",
+        "drupal/core": "^8",
+        "drupal/dawn": "^1.2",
+        "drupal/medium_theme": "^1.0",
+        "drupal/simple_block": "^1.0@beta",
+        "drupal/xmlsitemap": "^1.0@alpha",
+        "drush-ops/behat-drush-endpoint": "^0.0.5",
+        "drush/drush": "~8",
+        "pantheon-systems/quicksilver-pushback": "~1",
+        "rvtraveller/qs-composer-installer": "^1.1",
+        "webflo/drupal-core-strict": "^8"
+    },
+    "require-dev": {
+        "mikey179/vfsstream": "^1.2",
+        "behat/behat": "3.*",
+        "behat/mink": "^1.7",
+        "behat/mink-extension": "^2.2",
+        "behat/mink-goutte-driver": "^1.2",
+        "jcalderonzumba/gastonjs": "^1.0.2",
+        "jcalderonzumba/mink-phantomjs-driver": "^0.3.1",
+        "drupal/drupal-extension": "^3.1",
+        "phpunit/phpunit": "^4.8",
+        "symfony/css-selector": "^2.8"
+    },
+    "conflict": {
+            "drupal/drupal": "*"
+    },
+    "minimum-stability": "alpha",
+    "prefer-stable": true,
+    "autoload": {
+        "classmap": [
+            "scripts/composer/ScriptHandler.php"
+        ]
+    },
+    "scripts": {
+        "build-assets": [
+            "@prepare-for-pantheon",
+            "composer install --optimize-autoloader --no-dev"
+        ],
+        "lint": "find web/modules/custom web/themes/custom -name '*.php' -exec php -l {} \\;",
+        "code-sniff": "echo 'No code sniff step defined.'",
+        "unit-test": "echo 'No unit test step defined.'",
+        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+        "prepare-for-pantheon": "DrupalProject\\composer\\ScriptHandler::prepareForPantheon",
+        "post-install-cmd": [
+            "@drupal-scaffold",
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "post-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
+            "find .circleci/scripts/pantheon/ -type f | xargs chmod 755",
+            "find tests/scripts/ -type f | xargs chmod 755"
+        ],
+        "post-create-project-cmd": [
+            "@drupal-scaffold",
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ]
+    },
+    "extra": {
+        "installer-paths": {
+            "web/core": ["type:drupal-core"],
+            "web/modules/contrib/{$name}": ["type:drupal-module"],
+            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "web/themes/contrib/{$name}": ["type:drupal-theme"],
+            "drush/contrib/{$name}": ["type:drupal-drush"]
+        },
+        "build-env": {
+            "install-cms": [
+                "drush site-install standard --account-mail={account-mail} --account-name={account-name} --account-pass={account-pass} --site-mail={site-mail} --site-name={site-name} --yes",
+                "drush pm-enable config_direct_save simple_block --yes",
+                "drush pm-uninstall block_content --yes"
+            ],
+            "export-configuration": "drush config-export --yes"
+        },
+        "drupal-scaffold": {
+            "source": "https://raw.githubusercontent.com/pantheon-systems/drops-8-scaffolding/{version}/{path}",
+            "includes": [
+                "sites/default/default.services.pantheon.preproduction.yml",
+                "sites/default/settings.pantheon.php"
+            ],
+            "excludes": [
+                ".csslintrc",
+                ".editorconfig",
+                ".eslintignore",
+                ".eslintrc.json",
+                ".htaccess",
+                "web.config"
+            ]
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "platform": {
+            "php": "7.0.8"
+        }
+    }
+}
+alchemy/zippy                         0.4.3        ! 0.4.9        Zippy, the archive manager companion
+consolidation/annotated-command       2.8.5        ! 2.11.0       Initialize Symfony Console commands from annotated command class methods.
+consolidation/output-formatters       3.2.1        ! 3.4.0        Format text by applying transformations provided by plug-in formatters.
+dflydev/dot-access-data               v1.1.0       ~ v2.0.0       Given a deep data structure, access data by dot notation.
+drush-ops/behat-drush-endpoint        0.0.5        ~ 9.2.3        Drush commandfile for use with drupal/drupal-driver.
+drush/drush                           8.1.17       ~ 9.5.2        Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the comman...
+egulias/email-validator               1.2.15       ~ 2.1.7        A library for validating emails
+jakub-onderka/php-console-color       0.1          ~ v0.2        
+jakub-onderka/php-console-highlighter v0.3.2       ~ v0.4        
+masterminds/html5                     2.4.0        ! 2.5.0        An HTML5 parser and serializer.
+nikic/php-parser                      v4.0.3       ! v4.1.1       A PHP parser written in PHP
+paragonie/random_compat               v2.0.17      ~ v9.99.99     PHP 5.x polyfill for random_bytes() and random_int() from PHP 7
+phpdocumentor/type-resolver           0.4.0        ~ 0.5.1       
+phpunit/php-code-coverage             2.2.4        ~ 5.3.2        Library that provides collection, processing, and rendering functionality for PHP code coverage information.
+phpunit/php-token-stream              1.4.12       ~ 2.0.2        Wrapper around PHP's tokenizer extension.
+phpunit/phpunit                       4.8.36       ~ 6.5.13       The PHP Unit Testing framework.
+phpunit/phpunit-mock-objects          2.3.8        ~ 5.0.10       Mock Object library for PHPUnit
+psy/psysh                             v0.9.8       ! v0.9.9       An interactive shell for modern PHP.
+ralouphie/getallheaders               2.0.5        ~ 3.0.2        A polyfill for getallheaders.
+sebastian/comparator                  1.2.4        ~ 2.1.3        Provides the functionality to compare PHP values for equality
+sebastian/diff                        1.4.3        ~ 2.0.1        Diff implementation
+sebastian/environment                 1.3.8        ~ 3.1.0        Provides functionality to handle HHVM/PHP environments
+sebastian/exporter                    1.2.2        ~ 3.1.0        Provides the functionality to export PHP variables for visualization
+sebastian/global-state                1.1.1        ~ 2.0.0        Snapshotting of global state
+sebastian/recursion-context           1.0.5        ~ 3.0.0        Provides functionality to recursively process PHP variables
+sebastian/version                     1.0.6        ~ 2.0.1        Library that helps with managing the version number of Git-hosted PHP projects
+symfony-cmf/routing                   1.4.1        ~ 2.0.3        Extends the Symfony2 routing component for dynamic routes and chaining several routers
+symfony/browser-kit                   v3.4.15      ! v3.4.21      Symfony BrowserKit Component
+symfony/class-loader                  v3.4.20      ! v3.4.21      Symfony ClassLoader Component
+symfony/config                        v3.4.15      ! v3.4.21      Symfony Config Component
+symfony/console                       v3.4.20      ! v3.4.21      Symfony Console Component
+symfony/css-selector                  v2.8.45      ~ v3.4.21      Symfony CssSelector Component
+symfony/debug                         v3.4.20      ! v3.4.21      Symfony Debug Component
+symfony/dependency-injection          v3.4.20      ! v3.4.21      Symfony DependencyInjection Component
+symfony/dom-crawler                   v3.4.15      ! v3.4.21      Symfony DomCrawler Component
+symfony/event-dispatcher              v3.4.20      ! v3.4.21      Symfony EventDispatcher Component
+symfony/filesystem                    v3.4.15      ! v3.4.21      Symfony Filesystem Component
+symfony/finder                        v3.4.15      ! v3.4.21      Symfony Finder Component
+symfony/http-foundation               v3.4.20      ! v3.4.21      Symfony HttpFoundation Component
+symfony/http-kernel                   v3.4.20      ! v3.4.21      Symfony HttpKernel Component
+symfony/process                       v3.4.20      ! v3.4.21      Symfony Process Component
+symfony/routing                       v3.4.20      ! v3.4.21      Symfony Routing Component
+symfony/serializer                    v3.4.20      ! v3.4.21      Symfony Serializer Component
+symfony/translation                   v3.4.20      ! v3.4.21      Symfony Translation Component
+symfony/validator                     v3.4.20      ! v3.4.21      Symfony Validator Component
+symfony/var-dumper                    v3.4.15      ! v3.4.21      Symfony mechanism for exploring and dumping PHP variables
+symfony/yaml                          v3.4.20      ! v3.4.21      Symfony Yaml Component
+twig/twig                             v1.35.4      ~ v2.6.0       Twig, the flexible, fast, and secure template language for PHP
+webflo/drupal-core-strict             8.0.0-beta15 ! 8.6.5        Locked core dependencies
+webmozart/assert                      1.3.0        ! 1.4.0        Assertions to validate method input/output with nice error messages.
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   mine.sh
+	modified:   touchme
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	run
+
+no changes added to commit (use "git add" and/or "git commit -a")
