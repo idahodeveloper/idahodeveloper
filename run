@@ -126,7 +126,7 @@ egulias/email-validator               1.2.15       ~ 2.1.7        A library for 
 jakub-onderka/php-console-color       0.1          ~ v0.2        
 jakub-onderka/php-console-highlighter v0.3.2       ~ v0.4        
 masterminds/html5                     2.4.0        ! 2.5.0        An HTML5 parser and serializer.
-nikic/php-parser                      v4.0.3       ! v4.1.1       A PHP parser written in PHP
+nikic/php-parser                      v4.0.3       ! v4.2.0       A PHP parser written in PHP
 paragonie/random_compat               v2.0.17      ~ v9.99.99     PHP 5.x polyfill for random_bytes() and random_int() from PHP 7
 phpdocumentor/type-resolver           0.4.0        ~ 0.5.1       
 phpunit/php-code-coverage             2.2.4        ~ 5.3.2        Library that provides collection, processing, and rendering functionality for PHP code coverage information.
