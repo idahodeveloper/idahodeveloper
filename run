@@ -165,7 +165,7 @@ symfony/validator                     v3.4.20      ! v3.4.21      Symfony Valida
 symfony/var-dumper                    v3.4.15      ! v3.4.21      Symfony mechanism for exploring and dumping PHP variables
 symfony/yaml                          v3.4.20      ! v3.4.21      Symfony Yaml Component
 twig/twig                             v1.35.4      ~ v2.6.2       Twig, the flexible, fast, and secure template language for PHP
-webflo/drupal-core-strict             8.0.0-beta15 ! 8.6.5        Locked core dependencies
+webflo/drupal-core-strict             8.0.0-beta15 ! 8.6.6        Locked core dependencies
 webmozart/assert                      1.3.0        ! 1.4.0        Assertions to validate method input/output with nice error messages.
 On branch master
 Your branch is up to date with 'origin/master'.
