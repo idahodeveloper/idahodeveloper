@@ -143,6 +143,7 @@ sebastian/exporter                    1.2.2        ~ 3.1.0        Provides the f
 sebastian/global-state                1.1.1        ~ 2.0.0        Snapshotting of global state
 sebastian/recursion-context           1.0.5        ~ 3.0.0        Provides functionality to recursively process PHP variables
 sebastian/version                     1.0.6        ~ 2.0.1        Library that helps with managing the version number of Git-hosted PHP projects
+stecman/symfony-console-completion    0.8.0        ~ 0.9.0        Automatic BASH completion for Symfony Console Component based applications.
 symfony-cmf/routing                   1.4.1        ~ 2.0.3        Extends the Symfony2 routing component for dynamic routes and chaining several routers
 symfony/browser-kit                   v3.4.15      ! v3.4.21      Symfony BrowserKit Component
 symfony/class-loader                  v3.4.20      ! v3.4.21      Symfony ClassLoader Component
