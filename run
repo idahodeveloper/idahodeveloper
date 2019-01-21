@@ -170,8 +170,7 @@ typo3/phar-stream-wrapper             v2.0.1       ~ v3.0.1       Interceptors f
 webflo/drupal-core-strict             8.0.0-beta15 ! 8.6.7        Locked core dependencies
 webmozart/assert                      1.3.0        ! 1.4.0        Assertions to validate method input/output with nice error messages.
 On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
-  (use "git push" to publish your local commits)
+Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
