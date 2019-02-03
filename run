@@ -145,26 +145,26 @@ sebastian/recursion-context           1.0.5        ~ 3.0.0        Provides funct
 sebastian/version                     1.0.6        ~ 2.0.1        Library that helps with managing the version number of Git-hosted PHP projects
 stecman/symfony-console-completion    0.8.0        ~ 0.9.0        Automatic BASH completion for Symfony Console Component based applications.
 symfony-cmf/routing                   1.4.1        ~ 2.0.3        Extends the Symfony2 routing component for dynamic routes and chaining several routers
-symfony/browser-kit                   v3.4.15      ! v3.4.21      Symfony BrowserKit Component
-symfony/class-loader                  v3.4.20      ! v3.4.21      Symfony ClassLoader Component
-symfony/config                        v3.4.15      ! v3.4.21      Symfony Config Component
-symfony/console                       v3.4.20      ! v3.4.21      Symfony Console Component
-symfony/css-selector                  v2.8.45      ~ v3.4.21      Symfony CssSelector Component
-symfony/debug                         v3.4.20      ! v3.4.21      Symfony Debug Component
-symfony/dependency-injection          v3.4.20      ! v3.4.21      Symfony DependencyInjection Component
-symfony/dom-crawler                   v3.4.15      ! v3.4.21      Symfony DomCrawler Component
-symfony/event-dispatcher              v3.4.20      ! v3.4.21      Symfony EventDispatcher Component
-symfony/filesystem                    v3.4.15      ! v3.4.21      Symfony Filesystem Component
-symfony/finder                        v3.4.15      ! v3.4.21      Symfony Finder Component
-symfony/http-foundation               v3.4.20      ! v3.4.21      Symfony HttpFoundation Component
-symfony/http-kernel                   v3.4.20      ! v3.4.21      Symfony HttpKernel Component
-symfony/process                       v3.4.20      ! v3.4.21      Symfony Process Component
-symfony/routing                       v3.4.20      ! v3.4.21      Symfony Routing Component
-symfony/serializer                    v3.4.20      ! v3.4.21      Symfony Serializer Component
-symfony/translation                   v3.4.20      ! v3.4.21      Symfony Translation Component
-symfony/validator                     v3.4.20      ! v3.4.21      Symfony Validator Component
-symfony/var-dumper                    v3.4.15      ! v3.4.21      Symfony mechanism for exploring and dumping PHP variables
-symfony/yaml                          v3.4.20      ! v3.4.21      Symfony Yaml Component
+symfony/browser-kit                   v3.4.15      ! v3.4.22      Symfony BrowserKit Component
+symfony/class-loader                  v3.4.20      ! v3.4.22      Symfony ClassLoader Component
+symfony/config                        v3.4.15      ! v3.4.22      Symfony Config Component
+symfony/console                       v3.4.20      ! v3.4.22      Symfony Console Component
+symfony/css-selector                  v2.8.45      ~ v3.4.22      Symfony CssSelector Component
+symfony/debug                         v3.4.20      ! v3.4.22      Symfony Debug Component
+symfony/dependency-injection          v3.4.20      ! v3.4.22      Symfony DependencyInjection Component
+symfony/dom-crawler                   v3.4.15      ! v3.4.22      Symfony DomCrawler Component
+symfony/event-dispatcher              v3.4.20      ! v3.4.22      Symfony EventDispatcher Component
+symfony/filesystem                    v3.4.15      ! v3.4.22      Symfony Filesystem Component
+symfony/finder                        v3.4.15      ! v3.4.22      Symfony Finder Component
+symfony/http-foundation               v3.4.20      ! v3.4.22      Symfony HttpFoundation Component
+symfony/http-kernel                   v3.4.20      ! v3.4.22      Symfony HttpKernel Component
+symfony/process                       v3.4.20      ! v3.4.22      Symfony Process Component
+symfony/routing                       v3.4.20      ! v3.4.22      Symfony Routing Component
+symfony/serializer                    v3.4.20      ! v3.4.22      Symfony Serializer Component
+symfony/translation                   v3.4.20      ! v3.4.22      Symfony Translation Component
+symfony/validator                     v3.4.20      ! v3.4.22      Symfony Validator Component
+symfony/var-dumper                    v3.4.15      ! v3.4.22      Symfony mechanism for exploring and dumping PHP variables
+symfony/yaml                          v3.4.20      ! v3.4.22      Symfony Yaml Component
 twig/twig                             v1.35.4      ~ v2.6.2       Twig, the flexible, fast, and secure template language for PHP
 typo3/phar-stream-wrapper             v2.0.1       ~ v3.0.1       Interceptors for PHP's native phar:// stream handling
 webflo/drupal-core-strict             8.0.0-beta15 ! 8.6.7        Locked core dependencies
