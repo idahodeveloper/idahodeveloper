@@ -1104,17 +1104,17 @@
         },
         {
             "name": "drupal/bootstrap_barrio",
-            "version": "4.19.0",
+            "version": "4.22.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/bootstrap_barrio",
-                "reference": "8.x-4.19"
+                "reference": "8.x-4.22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/bootstrap_barrio-8.x-4.19.zip",
-                "reference": "8.x-4.19",
-                "shasum": "4d8f534845d276cf0d5af1973af8e5b7531fe068"
+                "url": "https://ftp.drupal.org/files/projects/bootstrap_barrio-8.x-4.22.zip",
+                "reference": "8.x-4.22",
+                "shasum": "93613bd20cd59997d60d6ce036384d46dfb3fce2"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1125,8 +1125,8 @@
                     "dev-4.x": "4.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-4.19",
-                    "datestamp": "1549543680",
+                    "version": "8.x-4.22",
+                    "datestamp": "1551325387",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1148,7 +1148,7 @@
                     "homepage": "https://www.drupal.org/user/827704"
                 }
             ],
-            "description": "Bootstrap 4 base theme. Flex based and compatible with jQuery 3+.",
+            "description": "Bootstrap 4 base theme.",
             "homepage": "https://www.drupal.org/project/bootstrap_barrio",
             "support": {
                 "source": "http://cgit.drupalcode.org/bootstrap_barrio"
@@ -1156,17 +1156,17 @@
         },
         {
             "name": "drupal/bootstrap_sass",
-            "version": "1.7.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/bootstrap_sass",
-                "reference": "8.x-1.7"
+                "reference": "8.x-1.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/bootstrap_sass-8.x-1.7.zip",
-                "reference": "8.x-1.7",
-                "shasum": "eea724805d4425e493d3a1188e6fe764fd3d61b7"
+                "url": "https://ftp.drupal.org/files/projects/bootstrap_sass-8.x-1.9.zip",
+                "reference": "8.x-1.9",
+                "shasum": "268aed5386815dff31b2769b649cce817f11b40c"
             },
             "require": {
                 "drupal/bootstrap_barrio": "^4.8.0",
@@ -1178,8 +1178,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.7",
-                    "datestamp": "1548511380",
+                    "version": "8.x-1.9",
+                    "datestamp": "1551065287",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1192,8 +1192,12 @@
             ],
             "authors": [
                 {
-                    "name": "agiover",
+                    "name": "hatuhay",
                     "homepage": "https://www.drupal.org/user/827704"
+                },
+                {
+                    "name": "ndf",
+                    "homepage": "https://www.drupal.org/user/599438"
                 }
             ],
             "description": "SASS subtheme for Barrio Theme.",
@@ -1553,16 +1557,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.6.9",
+            "version": "8.6.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "cac12e0ec19d5c6fa53778522b3ff4c542f86c8d"
+                "reference": "59568ac02948cf075ee8543e6c6d4386ad8daec1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/cac12e0ec19d5c6fa53778522b3ff4c542f86c8d",
-                "reference": "cac12e0ec19d5c6fa53778522b3ff4c542f86c8d",
+                "url": "https://api.github.com/repos/drupal/core/zipball/59568ac02948cf075ee8543e6c6d4386ad8daec1",
+                "reference": "59568ac02948cf075ee8543e6c6d4386ad8daec1",
                 "shasum": ""
             },
             "require": {
@@ -1788,7 +1792,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2019-02-08T12:21:40+00:00"
+            "time": "2019-02-20T18:35:01+00:00"
         },
         {
             "name": "drupal/dawn",
@@ -6778,6 +6782,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2015-10-02T06:51:40+00:00"
         },
         {
