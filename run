@@ -161,6 +161,10 @@ symfony/filesystem                    v3.4.15      ! v3.4.23      Symfony Filesy
 symfony/finder                        v3.4.15      ! v3.4.23      Symfony Finder Component
 symfony/http-foundation               v3.4.20      ! v3.4.23      Symfony HttpFoundation Component
 symfony/http-kernel                   v3.4.20      ! v3.4.23      Symfony HttpKernel Component
+symfony/polyfill-ctype                v1.10.0      ! v1.11.0      Symfony polyfill for ctype functions
+symfony/polyfill-iconv                v1.10.0      ! v1.11.0      Symfony polyfill for the Iconv extension
+symfony/polyfill-mbstring             v1.10.0      ! v1.11.0      Symfony polyfill for the Mbstring extension
+symfony/polyfill-php70                v1.10.0      ! v1.11.0      Symfony polyfill backporting some PHP 7.0+ features to lower PHP versions
 symfony/process                       v3.4.20      ! v3.4.23      Symfony Process Component
 symfony/psr-http-message-bridge       v1.1.0       ! v1.1.1       PSR HTTP message bridge
 symfony/routing                       v3.4.20      ! v3.4.23      Symfony Routing Component
