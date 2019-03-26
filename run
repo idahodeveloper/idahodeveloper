@@ -123,7 +123,7 @@ consolidation/output-formatters       3.2.1        ! 3.4.1        Format text by
 dflydev/dot-access-data               v1.1.0       ~ v2.0.0       Given a deep data structure, access data by dot notation.
 drupal-composer/drupal-scaffold       2.5.4        ! 2.6.0        Composer Plugin for updating the Drupal scaffold files when using drupal/core
 drush-ops/behat-drush-endpoint        0.0.5        ~ 9.2.3        Drush commandfile for use with drupal/drupal-driver.
-drush/drush                           8.1.17       ~ 9.6.0        Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us w...
+drush/drush                           8.1.17       ~ 9.6.1        Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us w...
 egulias/email-validator               1.2.15       ~ 2.1.7        A library for validating emails
 jakub-onderka/php-console-color       0.1          ~ v0.2        
 jakub-onderka/php-console-highlighter v0.3.2       ~ v0.4        
