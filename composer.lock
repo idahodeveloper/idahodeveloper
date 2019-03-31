@@ -1247,7 +1247,7 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://git.drupal.org/project/config_direct_save",
+                "url": "https://git.drupalcode.org/project/config_direct_save.git",
                 "reference": "8.x-1.0"
             },
             "dist": {
