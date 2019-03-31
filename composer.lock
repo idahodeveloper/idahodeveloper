@@ -1835,7 +1835,7 @@
             "version": "1.2.0",
             "source": {
                 "type": "git",
-                "url": "https://git.drupal.org/project/dawn",
+                "url": "https://git.drupalcode.org/project/dawn.git",
                 "reference": "8.x-1.2"
             },
             "dist": {
