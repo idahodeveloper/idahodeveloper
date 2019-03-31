@@ -1195,7 +1195,7 @@
             "version": "1.9.0",
             "source": {
                 "type": "git",
-                "url": "https://git.drupal.org/project/bootstrap_sass",
+                "url": "https://git.drupalcode.org/project/bootstrap_sass.git",
                 "reference": "8.x-1.9"
             },
             "dist": {
