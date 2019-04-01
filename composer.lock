@@ -1976,7 +1976,7 @@
             "version": "1.0.0-alpha3",
             "source": {
                 "type": "git",
-                "url": "https://git.drupal.org/project/xmlsitemap",
+                "url": "https://git.drupalcode.org/project/xmlsitemap.git",
                 "reference": "8.x-1.0-alpha3"
             },
             "dist": {
