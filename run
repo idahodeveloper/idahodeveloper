@@ -147,6 +147,7 @@ sebastian/version                     1.0.6        ~ 2.0.1        Library that h
 stecman/symfony-console-completion    0.8.0        ~ 0.9.0        Automatic BASH completion for Symfony Console Component based applications.
 symfony-cmf/routing                   1.4.1        ~ 2.0.3        Extends the Symfony2 routing component for dynamic routes and chaining several routers
 symfony/browser-kit                   v3.4.15      ! v3.4.23      Symfony BrowserKit Component
+symfony/class-loader                  v3.4.23      ! v3.4.24      Symfony ClassLoader Component
 symfony/config                        v3.4.15      ! v3.4.23      Symfony Config Component
 symfony/css-selector                  v2.8.45      ~ v3.4.23      Symfony CssSelector Component
 symfony/dom-crawler                   v3.4.15      ! v3.4.23      Symfony DomCrawler Component
