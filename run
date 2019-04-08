@@ -127,6 +127,7 @@ drush/drush                           8.1.17       ~ 9.6.2        Drush is a com
 egulias/email-validator               1.2.15       ~ 2.1.7        A library for validating emails
 jakub-onderka/php-console-color       0.1          ~ v0.2        
 jakub-onderka/php-console-highlighter v0.3.2       ~ v0.4        
+mikey179/vfsStream                    v1.6.5       ! v1.6.6       Virtual file system to mock the real file system in unit tests.
 nikic/php-parser                      v4.0.3       ! v4.2.1       A PHP parser written in PHP
 paragonie/random_compat               v2.0.18      ~ v9.99.99     PHP 5.x polyfill for random_bytes() and random_int() from PHP 7
 phpdocumentor/type-resolver           0.4.0        ~ 0.5.1       
