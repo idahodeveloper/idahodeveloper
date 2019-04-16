@@ -148,12 +148,14 @@ sebastian/version                     1.0.6        ~ 2.0.1        Library that h
 stecman/symfony-console-completion    0.8.0        ~ 0.9.0        Automatic BASH completion for Symfony Console Component based applications.
 symfony-cmf/routing                   1.4.1        ~ 2.0.3        Extends the Symfony2 routing component for dynamic routes and chaining several routers
 symfony/browser-kit                   v3.4.15      ! v3.4.24      Symfony BrowserKit Component
+symfony/class-loader                  v3.4.24      ! v3.4.25      Symfony ClassLoader Component
 symfony/config                        v3.4.15      ! v3.4.24      Symfony Config Component
 symfony/css-selector                  v2.8.45      ~ v3.4.24      Symfony CssSelector Component
 symfony/dom-crawler                   v3.4.15      ! v3.4.24      Symfony DomCrawler Component
 symfony/filesystem                    v3.4.15      ! v3.4.24      Symfony Filesystem Component
 symfony/finder                        v3.4.15      ! v3.4.24      Symfony Finder Component
-symfony/var-dumper                    v3.4.15      ! v3.4.24      Symfony mechanism for exploring and dumping PHP variables
+symfony/var-dumper                    v3.4.15      ! v3.4.25      Symfony mechanism for exploring and dumping PHP variables
+symfony/yaml                          v3.4.24      ! v3.4.25      Symfony Yaml Component
 twig/twig                             v1.38.4      ~ v2.7.4       Twig, the flexible, fast, and secure template language for PHP
 typo3/phar-stream-wrapper             v2.1.0       ~ v3.1.0       Interceptors for PHP's native phar:// stream handling
 webflo/drupal-core-strict             8.0.0-beta15 ! 8.7.0-beta2  Locked core dependencies
