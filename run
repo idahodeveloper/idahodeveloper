@@ -174,8 +174,7 @@ webflo/drupal-core-strict             8.0.0-beta15 ! 8.7.0-beta2  Locked core de
 webmozart/assert                      1.3.0        ! 1.4.0        Assertions to validate method input/output with nice error messages.
 drupal/core                  8.6.14       ! 8.6.15       Drupal is an open source content management platform powering millions of websites and applications.
 On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
-  (use "git push" to publish your local commits)
+Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
